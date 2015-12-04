@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'nvm' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'nvm', null ]
+5 verbose cache add name=undefined spec="nvm" args=["nvm",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nvm',
+6 verbose parsed url   path: 'nvm',
+6 verbose parsed url   href: 'nvm' }
+7 silly lockFile ed8ccd57-nvm nvm
+8 verbose lock nvm /Users/sszhu/.npm/ed8ccd57-nvm.lock
+9 silly lockFile ed8ccd57-nvm nvm
+10 silly lockFile ed8ccd57-nvm nvm
+11 verbose addNamed [ 'nvm', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 994bb1db-nvm nvm@
+14 verbose lock nvm@ /Users/sszhu/.npm/994bb1db-nvm.lock
+15 silly addNameRange { name: 'nvm', range: '*', hasData: false }
+16 verbose request where is /nvm
+17 verbose request registry https://registry.npm.taobao.org/
+18 verbose request id 7d4108d6a98a9323
+19 verbose url raw /nvm
+20 verbose url resolving [ 'https://registry.npm.taobao.org/', './nvm' ]
+21 verbose url resolved https://registry.npm.taobao.org/nvm
+22 verbose request where is https://registry.npm.taobao.org/nvm
+23 info trying registry request attempt 1 at 16:11:28
+24 http GET https://registry.npm.taobao.org/nvm
+25 http 200 https://registry.npm.taobao.org/nvm
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Fri, 04 Dec 2015 08:11:29 GMT',
+26 silly registry.get     'content-type': 'application/json; charset=utf-8',
+26 silly registry.get     'content-length': '4473',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     etag: '"1179-L85DGialk6XRQgEFzZjT/w"',
+26 silly registry.get     'x-readtime': '28' } ]
+27 silly addNameRange number 2 { name: 'nvm', range: '*', hasData: true }
+28 silly addNameRange versions [ 'nvm', [ '0.0.3' ] ]
+29 verbose addNamed [ 'nvm', '0.0.3' ]
+30 verbose addNamed [ '0.0.3', '0.0.3' ]
+31 silly lockFile dc94ebd7-nvm-0-0-3 nvm@0.0.3
+32 verbose lock nvm@0.0.3 /Users/sszhu/.npm/dc94ebd7-nvm-0-0-3.lock
+33 warn deprecated nvm@0.0.3: This is NOT the correct nvm. Visit http://nvm.sh and use the curl command to install it.
+34 silly lockFile 8ae0ee4c-o-org-nvm-download-nvm-0-0-3-tgz https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz
+35 verbose lock https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz /Users/sszhu/.npm/8ae0ee4c-o-org-nvm-download-nvm-0-0-3-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz',
+36 verbose addRemoteTarball   '1f39d2dfd16bf661534a3f7145134f4bbbef6da4' ]
+37 info retry fetch attempt 1 at 16:11:29
+38 verbose fetch to= /var/folders/4j/cb4zdvgs69d5kb68h11g6n4r0000gn/T/npm-2025-JnAWIP4g/registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz
+39 http GET https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz
+40 http 200 https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz
+41 silly lockFile 8ae0ee4c-o-org-nvm-download-nvm-0-0-3-tgz https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz
+42 silly lockFile 8ae0ee4c-o-org-nvm-download-nvm-0-0-3-tgz https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz
+43 silly lockFile dc94ebd7-nvm-0-0-3 nvm@0.0.3
+44 silly lockFile dc94ebd7-nvm-0-0-3 nvm@0.0.3
+45 silly lockFile 994bb1db-nvm nvm@
+46 silly lockFile 994bb1db-nvm nvm@
+47 silly resolved [ { name: 'nvm',
+47 silly resolved     version: '0.0.3',
+47 silly resolved     description: 'Install and managing different versions of node and installing local versions into repos.',
+47 silly resolved     dependencies: { mkdirp: '~0.3.3' },
+47 silly resolved     devDependencies: {},
+47 silly resolved     bin: { nvm: './bin/nvm' },
+47 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+47 silly resolved     repository: { type: 'git', url: 'git://github.com/brianloveswords/nvm.git' },
+47 silly resolved     keywords: [ 'local', 'node' ],
+47 silly resolved     author: { name: 'Brian J. Brennan', url: '@brianloveswords' },
+47 silly resolved     license: 'http://wtfpl.org/',
+47 silly resolved     bugs: { url: 'https://github.com/brianloveswords/nvm/issues' },
+47 silly resolved     homepage: 'https://github.com/brianloveswords/nvm',
+47 silly resolved     _id: 'nvm@0.0.3',
+47 silly resolved     dist:
+47 silly resolved      { shasum: '1f39d2dfd16bf661534a3f7145134f4bbbef6da4',
+47 silly resolved        size: 4290,
+47 silly resolved        noattachment: false,
+47 silly resolved        tarball: 'http://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz' },
+47 silly resolved     _from: 'nvm@',
+47 silly resolved     _npmVersion: '1.4.3',
+47 silly resolved     _npmUser: { name: 'brianloveswords', email: 'brianloveswords@gmail.com' },
+47 silly resolved     maintainers: [ [Object], [Object] ],
+47 silly resolved     directories: {},
+47 silly resolved     publish_time: 1393341345587,
+47 silly resolved     _cnpm_publish_time: 1393341345587,
+47 silly resolved     deprecated: 'This is NOT the correct nvm. Visit http://nvm.sh and use the curl command to install it.',
+47 silly resolved     _shasum: '1f39d2dfd16bf661534a3f7145134f4bbbef6da4',
+47 silly resolved     _resolved: 'https://registry.npm.taobao.org/nvm/download/nvm-0.0.3.tgz' } ]
+48 info install nvm@0.0.3 into /usr/local/lib
+49 info installOne nvm@0.0.3
+50 verbose lib/node_modules/nvm unbuild
+51 verbose tar unpack /Users/sszhu/.npm/nvm/0.0.3/package.tgz
+52 silly lockFile a74a5548-r-usr-local-lib-node-modules-nvm tar:///usr/local/lib/node_modules/nvm
+53 verbose lock tar:///usr/local/lib/node_modules/nvm /Users/sszhu/.npm/a74a5548-r-usr-local-lib-node-modules-nvm.lock
+54 silly lockFile 0c1cfe68--sszhu-npm-nvm-0-0-3-package-tgz tar:///Users/sszhu/.npm/nvm/0.0.3/package.tgz
+55 verbose lock tar:///Users/sszhu/.npm/nvm/0.0.3/package.tgz /Users/sszhu/.npm/0c1cfe68--sszhu-npm-nvm-0-0-3-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nvm'
+57 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nvm']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/local/lib/node_modules/nvm',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/local/lib/node_modules/nvm',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:107:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Darwin 14.0.0
+60 error command "node" "/usr/local/bin/npm" "install" "-g" "nvm"
+61 error cwd /Users/sszhu/Sites/gitwork/wechatsell
+62 error node -v v0.10.33
+63 error npm -v 1.4.28
+64 error path /usr/local/lib/node_modules/nvm
+65 error fstream_path /usr/local/lib/node_modules/nvm
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nvm'
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:107:15)
+72 verbose exit [ 3, true ]
